@@ -23,7 +23,15 @@ https://store-frontend-gamma-five.vercel.app/
 - Star rating system
 - Admin dashboard for user/store management
 - Store owner dashboard
-- Responsive, accessible UI
+
+## Super Admin Details
+
+A System Administrator account is seeded for initial access:
+- **Email:** superadmin@example.com
+- **Password:** SuperAdmin!2025
+- **Role:** System Administrator
+
+Use these credentials to log in as a super admin and manage users, stores, and ratings.
 
 ## Development
 
