@@ -1,0 +1,96 @@
+
+.storelist-center-outer {
+	min-height: 100vh;
+	background: #18181b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #f4f4f5;
+	padding: 0;
+}
+
+.storelist-center-box {
+	background: #23232b;
+	border-radius: 16px;
+	box-shadow: 0 2px 16px 0 #000a;
+	padding: 32px 32px 24px 32px;
+	min-width: 340px;
+	max-width: 700px;
+	width: 100%;
+}
+
+.storelist-title {
+	color: #f4f4f5;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.storelist-search-row {
+	display: flex;
+	gap: 32px;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 24px;
+}
+
+.storelist-search-group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.storelist-search-label {
+	margin-bottom: 4px;
+	font-size: 1rem;
+	color: #a1a1aa;
+}
+
+.storelist-search-input {
+	background: #18181b;
+	color: #f4f4f5;
+	border: 1px solid #27272a;
+	border-radius: 4px;
+	padding: 8px 12px;
+	min-width: 180px;
+	font-size: 1rem;
+}
+
+.storelist-table-container {
+	overflow-x: auto;
+	border-radius: 8px;
+	background: #23232b;
+	padding: 8px;
+	margin-bottom: 24px;
+}
+
+.storelist-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #f4f4f5;
+	background: transparent;
+}
+
+.storelist-table th, .storelist-table td {
+	padding: 12px 8px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.storelist-table th {
+	background: #18181b;
+	font-weight: 600;
+	border-bottom: 2px solid #27272a;
+}
+
+.storelist-table tr {
+	border-bottom: 1px solid #27272a;
+}
+
+.storelist-table tr:last-child {
+	border-bottom: none;
+}
+
+.storelist-table td {
+	background: transparent;
+}

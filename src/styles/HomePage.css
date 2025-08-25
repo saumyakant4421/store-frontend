@@ -1,0 +1,55 @@
+.homepage-outer {
+  min-height: 100vh;
+  background: #18181b;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: #f4f4f5;
+  padding-top: 7vh;
+}
+
+.homepage-box {
+  background: #23232b;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 #000a;
+  padding: 48px 40px 40px 40px;
+  min-width: 340px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+.homepage-title {
+  color: #f4f4f5;
+  margin-bottom: 18px;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.homepage-desc {
+  color: #a1a1aa;
+  margin-bottom: 32px;
+  font-size: 1.1rem;
+}
+
+.homepage-btn-row {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+.homepage-btn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.homepage-btn:hover {
+  background: #2563eb;
+}

@@ -1,0 +1,27 @@
+.profile-outer {
+  min-height: 100vh;
+  background: #18181b;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profile-box {
+  max-width: 400px;
+  width: 100%;
+  background: #23232b;
+  color: #f4f4f5;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 2px 16px #000a;
+  margin-top: 64px;
+}
+
+.profile-title {
+  margin-bottom: 24px;
+}
+
+.profile-not-logged {
+  color: #f4f4f5;
+  padding: 32px;
+}

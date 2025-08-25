@@ -1,0 +1,134 @@
+
+.admin-outer {
+  min-height: 100vh;
+  background: #18181b;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: #f4f4f5;
+  padding-top: 7vh;
+  overflow: visible !important;
+}
+
+.admin-box {
+  background: #23232b;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 #000a;
+  padding: 40px 32px 32px 32px;
+  min-width: 340px;
+  max-width: 900px;
+  width: 100%;
+  overflow: visible !important;
+}
+
+.admin-title {
+  color: #f4f4f5;
+  margin-bottom: 18px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.admin-stats-row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.admin-stat-card {
+  background: #18181b;
+  border-radius: 10px;
+  padding: 18px 24px;
+  min-width: 120px;
+  text-align: center;
+  box-shadow: 0 1px 6px 0 #0006;
+}
+
+.admin-stat-title {
+  color: #a1a1aa;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.admin-stat-value {
+  color: #f4f4f5;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.admin-input, .admin-select {
+  background: #18181b;
+  color: #f4f4f5;
+  border: 1px solid #27272a;
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+.admin-btn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+
+.admin-btn:hover {
+  background: #2563eb;
+}
+
+.admin-error {
+  background: #ef4444;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 0;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #f4f4f5;
+  background: transparent;
+  margin-bottom: 32px;
+}
+
+.admin-table th, .admin-table td {
+  padding: 12px 8px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.admin-table th {
+  background: #18181b;
+  font-weight: 600;
+  border-bottom: 2px solid #27272a;
+}
+
+.admin-table tr {
+  border-bottom: 1px solid #27272a;
+}
+
+.admin-table tr:last-child {
+  border-bottom: none;
+}
+
+.admin-table td {
+  background: transparent;
+}

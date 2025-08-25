@@ -1,0 +1,53 @@
+/* StoreOwner.css - dark minimal style for Store Owner Dashboard */
+
+.store-owner-container {
+  background: #181a1b;
+  color: #f1f1f1;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #000a;
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 3rem auto 0 auto;
+  max-width: 540px;
+}
+
+.store-owner-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.store-owner-average {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
+}
+
+.store-owner-list {
+  background: #23272a;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.store-owner-list-item {
+  background: #23272a;
+  color: #f1f1f1;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+.store-owner-list-item:last-child {
+  border-bottom: none;
+}
+
+.store-owner-alert {
+  background: #2d2d2d;
+  color: #ff6b6b;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
